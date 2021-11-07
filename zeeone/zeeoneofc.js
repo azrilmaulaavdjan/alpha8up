@@ -1,43 +1,43 @@
 const petik = '```'
 const help = (prefix, wita, wit, ucapannya2, timuu, status, wa_version, mcc, mnc, os_version, device_manufacturer, device_model, alfa , alfa1, thisDay, ini_tanggal, totalchat, hit_today, ini_gcchat, latensiii, tekss)=> {
 	return`┌❏ *INDONESIA TIME*
-${petik}│◦➛ WIB : ${timuu}
+│◦➛ WIB : ${timuu}
 │◦➛ WITA : ${wita}
-└❏ WIT : ${wit}${petik}
+└❏ WIT : ${wit}
                           
 ┌❏ *TODAY*
-${petik}│◦➛${ucapannya}
+│◦➛${ucapannya}
 │◦➛Jam : ${timuu}
 │◦➛Hari : ${thisDay}
-└❏ Tanggal : ${ini_tanggal}${petik}
+└❏ Tanggal : ${ini_tanggal}
 
 ┌❏ *DEVICE*
-${petik}│◦➛Whatsapp : ${wa_version}
+│◦➛Whatsapp : ${wa_version}
 │◦➛Merk HP : ${device_manufacturer}
 │◦➛Versi HP : ${device_model}
 │◦➛Versi OS : ${os_version}
 │◦➛RAM : ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB
 │◦➛MCC : ${mcc}
-└❏ MNC : ${mnc}${petik}
+└❏ MNC : ${mnc}
 
 ┌─❑「 *BOT INFO* 」
-${petik}│◦➛ Owner : ${ownername}
+│◦➛ Owner : ${ownername}
 │◦➛Mode : ${status}
 │◦➛Prefix : ${prefix}
 │◦➛Total Hit : ${hit_today.length}
 │◦➛Personal Chat : ${totalchat.length - ini_gcchat.lenght}
 │◦➛Total All Chat : ${totalchat.length}
 │◦➛Group Chat : ${ini_gcchat}
-│◦➛Browser : Chrome
+│◦➛Software : Linux
 │◦➛Server : Baileys
-│◦➛Version : 3.5.2${petik}
-${petik}│◦➛Speed :${petik} ${latensiii} 
-${petik}└❏ ${tekss}${petik}
+│◦➛Version : 3.5.2
+│◦➛Speed : ${latensiii} 
+└❏ ${tekss}
 
 
 ┌❑ *LIST MENU* ❑
 │
-${petik}├❒ Allmenu 
+├❒ Allmenu 
 ├❒ Convertmenu
 ├❒ Asupanmenu
 ├❒ Downloadmenu
@@ -51,29 +51,29 @@ ${petik}├❒ Allmenu
 ├❒ Set_sticker_cmd
 ├❒ Gacha_cecan
 ├❒ Telegram_sticker
-└❒ Image_effect${petik}
+└❒ Image_effect
 
 ┌❑ *ABOUT* ❑
 │
-${petik}├❒ Source
+├❒ Source
 ├❒ ThanksTo
 ├❒ Group_support
-└❒ Ownerbot${petik}
+└❒ Ownerbot$
 
-❒ _Creator BotWea © 2K21_ ❒
+❒ _Creator BotWea © Azril Maulana_ ❒
 `
 }
 const convert = (prefix) => {
 	return`┌❑ *CONVERT MENU* ❑
 │
-${petik}├❒ ${prefix}toimg
+├❒ ${prefix}toimg
 ├❒ ${prefix}tomp3
 ├❒ ${prefix}tomp4
 ├❒ ${prefix}slow
 ├❒ ${prefix}tupai
 ├❒ ${prefix}fast
 ├❒ ${prefix}reverse
-└❒ ${prefix}tourl${petik}
+└❒ ${prefix}tourl$
 `
 }
 const download = (prefix) => {
@@ -109,51 +109,51 @@ ${petik}└❒ ${prefix}anime${petik} _random_
 `
 }
 const allmenu = (prefix, wita, wit, ucapannya2, timuu, status, wa_version, mcc, mnc, os_version, device_manufacturer, device_model, alfa , alfa1, thisDay, ini_tanggal, totalchat, hit_today, ini_gcchat, latensiii, tekss)  => {
-	return`❏───「 *FARIDA BOT* 」───❏
+	return`❏───「 *XYZZ BOT* 」───❏
      
 ┌❏ *INDONESIA TIME*
-${petik}│◦➛ WIB : ${timuu}
+│◦➛ WIB : ${timuu}
 │◦➛ WITA : ${wita}
-└❏ WIT : ${wit}${petik}
+└❏ WIT : ${wit}
                           
 ┌❏ *TODAY*
-${petik}│◦➛${ucapannya2}
+│◦➛${ucapannya2}
 │◦➛Jam : ${timuu}
 │◦➛Hari : ${thisDay}
-└❏ Tanggal : ${ini_tanggal}${petik}
+└❏ Tanggal : ${ini_tanggal}
 
 ┌❏ *DEVICE*
-${petik}│◦➛Whatsapp : ${wa_version}
+│◦➛Whatsapp : ${wa_version}
 │◦➛Merk HP : ${device_manufacturer}
 │◦➛Versi HP : ${device_model}
 │◦➛Versi OS : ${os_version}
 │◦➛RAM : ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB
 │◦➛MCC : ${mcc}
-└❏ MNC : ${mnc}${petik}
+└❏ MNC : ${mnc}
 
 ┌─❑「 *BOT INFO* 」
-${petik}│◦➛Mode : ${status}
+│◦➛Mode : ${status}
 │◦➛Prefix : ${prefix}
 │◦➛Total Hit : ${hit_today.length}
 │◦➛Personal Chat : ${totalchat.length - ini_gcchat.lenght}
 │◦➛Total All Chat : ${totalchat.length}
 │◦➛Group Chat : ${ini_gcchat}
-│◦➛Browser : Chrome
+│◦➛Software : Linux
 │◦➛Server : Baileys
-│◦➛Version : 3.5.2${petik}
-${petik}│◦➛Speed :${petik} ${latensiii} 
-${petik}└❏ ${tekss}${petik}
+│◦➛Version : 3.5.2
+│◦➛Speed : ${latensiii} 
+└❏ ${tekss}
 
 ┌─❑「 *CONVERT MENU* 」
 │
-${petik}│◦ ${prefix}toimg
+│◦ ${prefix}toimg
 │◦ ${prefix}tomp3
 │◦ ${prefix}tomp4
 │◦ ${prefix}slow
 │◦ ${prefix}tupai
 │◦ ${prefix}fast
 │◦ ${prefix}reverse
-│◦ ${prefix}tourl${petik}
+│◦ ${prefix}tourl
 │
 ├❑「 *DOWNLOAD MENU* 」
 │
@@ -186,7 +186,7 @@ ${petik}│◦ ${prefix}anime${petik} _random_
 │
 ├❑「 *FUN MENU* 」
 │
-${petik}│◦ ${prefix}fitnah
+│◦ ${prefix}fitnah
 │◦ ${prefix}absen
 │◦ ${prefix}absensi
 │◦ ${prefix}tebakgambar
@@ -194,15 +194,15 @@ ${petik}│◦ ${prefix}fitnah
 │◦ ${prefix}family100
 │◦ ${prefix}tebakanime
 │◦ ${prefix}suit
-│◦ ${prefix}fitnahpc${petik} text|balasan
-${petik}│◦ ${prefix}kontak${petik} 62xxx|text
-${petik}│◦ ${prefix}tictactoe${petik} @user
-${petik}│◦ ${prefix}delttt${petik}
-${petik}│◦ ${prefix}voting${petik} @user|reason|time
-${petik}│◦ ${prefix}delvote${petik}
-${petik}│◦ ${prefix}jadibot${petik}
-${petik}│◦ ${prefix}stopjadibot${petik}
-${petik}│◦ ${prefix}listbot${petik}
+│◦ ${prefix}fitnahpc text|balasan
+│◦ ${prefix}kontak$ 62xxx|text
+│◦ ${prefix}tictactoe @user
+│◦ ${prefix}delttt
+│◦ ${prefix}voting @user|reason|time
+│◦ ${prefix}delvote
+│◦ ${prefix}jadibot
+│◦ ${prefix}stopjadibot
+│◦ ${prefix}listbot
 │
 ├❑「 *MAKER MENU* 」
 │
@@ -256,7 +256,7 @@ ${petik}│◦ ${prefix}cslogo${petik} text
 │
 ├❑ 「 *IMAGE EFFECT* 」
 │
-${petik}│◦ ${prefix}trigger
+│◦ ${prefix}trigger
 │◦ ${prefix}gay
 │◦ ${prefix}glass
 │◦ ${prefix}passed
@@ -301,7 +301,7 @@ ${petik}│◦ ${prefix}trigger
 │◦ ${prefix}challenger
 │◦ ${prefix}burn
 │◦ ${prefix}brazzers
-│◦ ${prefix}beautiful${petik}
+│◦ ${prefix}beautiful
 │
 ├❑「 *GROUP MENU* 」
 │
@@ -318,9 +318,9 @@ ${petik}│◦ ${prefix}getname${petik} _reply_
 ${petik}│◦ ${prefix}size${petik} _reply media_
 ${petik}│◦ ${prefix}colongsw${petik} _reply sw_
 ${petik}│◦ ${prefix}getbio${petik} _@user_
-${petik}│◦ ${prefix}tagall
-│◦ ${prefix}listonline
-│◦ ${prefix}caripesan${petik} query
+${petik}│◦ ${prefix}tagall${petik}
+${petik}│◦ ${prefix}listonline${petik}
+${petik}│◦ ${prefix}caripesan${petik} query
 ${petik}│◦ ${prefix}caripesan2${petik} _query_
 ${petik}│◦ ${prefix}searchmsg${petik} _query|total_
 ${petik}│◦ ${prefix}sider${petik} _reply pesan bot_
@@ -333,19 +333,19 @@ ${petik}│◦ ${prefix}promoteall
 │◦ ${prefix}setname
 │◦ ${prefix}revoke
 │◦ ${prefix}setdesk
-│◦ ${prefix}spam${petik} text|jumlah
-${petik}│◦ ${prefix}demoteall
+│◦ ${prefix}spam text|jumlah
+│◦ ${prefix}demoteall
 │◦ ${prefix}admin
 │◦ ${prefix}listpc
 │◦ ${prefix}listgroup
 │◦ ${prefix}hentai
 │◦ ${prefix}trapnime
 │◦ ${prefix}awoo
-│◦ ${prefix}megumin${petik}
+│◦ ${prefix}megumin
 │
 ├❑「 *OWNER MENU* 」
 │
-${petik}│◦ ${prefix}off
+│◦ ${prefix}off
 │◦ ${prefix}on
 │◦ ${prefix}buggc
 │◦ ${prefix}bc
@@ -375,7 +375,7 @@ ${petik}│◦ ${prefix}off
 │◦ ${prefix}unarchive
 │◦ ${prefix}pin
 │◦ ${prefix}delthischat
-│◦ ${prefix}unpin${petik}
+│◦ ${prefix}unpin
 ${petik}│◦ ${prefix}autoread${petik} <query> on / off
 ${petik}│◦ ${prefix}antibug${petik} on / off
 ${petik}│◦ ${prefix}antidelete${petik} on / off
@@ -384,10 +384,10 @@ ${petik}│◦ ${prefix}autoketik${petik} on / off
 ${petik}│◦ ${prefix}autovn${petik} on / off
 ${petik}│◦ ${prefix}antihidetag${petik} on / off
 ${petik}│◦ ${prefix}autobio${petik} on / off
-${petik}│◦ ${prefix}setthumb
-│◦ ${prefix}settarget
-│◦ ${prefix}setfakeimg
-│◦ ${prefix}setreply${petik}
+${petik}│◦ ${prefix}setthumb${petik}
+${petik}│◦ ${prefix}settarget${petik}
+${petik}│◦ ${prefix}setfakeimg${petik}
+${petik}│◦ ${prefix}setreply${petik}
 ${petik}│◦ ${prefix}term${petik} _code_
 ${petik}│◦ x or >${petik} _code_
 ${petik}│◦ $ ${petik} _termux code_
